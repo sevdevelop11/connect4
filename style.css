@@ -1,6 +1,13 @@
-body {
-    background-color: azure;
+html, body {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(180deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     margin: 0;
+}
+
+.title {
+    text-align: center;
+    font-family: fantasy;
+    color: indigo;
 }
 
 main {
@@ -27,10 +34,11 @@ main {
     filter: drop-shadow(2px 2px 9px black);
     font-weight: bold;
     margin-bottom: 20px;
-    font-family: sans-serif;}
+    font-family: fantasy;}
 
 .count {
     display: flex;
+    font-family: monospace;
 }
 
 .team {
@@ -43,10 +51,11 @@ main {
 button {
     border-radius: 0.5rem;
     padding: 1rem 2rem;
-    font-family: cursive;
+    font-family: fantasy;
     font-size: larger;
     margin: 0 2rem;
-    background: aliceblue;
+    background: dodgerblue;
+    color: indigo;
     filter: drop-shadow(2px 2px 6px black);
     margin-top: 1rem;
 }
@@ -85,5 +94,6 @@ button {
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
+    font-family: fantasy;
 }
