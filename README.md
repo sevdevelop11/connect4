@@ -1,6 +1,6 @@
 # Connect Four Game
 
-This repository contains a Connect Four game implemented using HTML, CSS, and JavaScript where two players can compete against each other.
+This repository contains a Connect Four game implemented using HTML, CSS, and JavaScript where two players can compete against each other. Try it [here](https://sevdevelop11.github.io/connect4/)
 
 ## How to Play
 
