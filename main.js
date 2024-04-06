@@ -14,6 +14,7 @@ function checkWin() {
         let instructions = document.getElementById('instructions');
         instructions.textContent = 'Winner: ' + players[actualPlayer].color;
         instructions.style.color = players[actualPlayer].color;
+        instructions.style.transform = 'scale(1.9)';
         players[actualPlayer].wins = players[actualPlayer].wins + 1;
         let winsActualPlayer = document.getElementsByClassName('team').item(actualPlayer).children.item(0);
         winsActualPlayer.textContent = winsActualPlayer.textContent.slice(0, winsActualPlayer.textContent.length - 1) + 
@@ -112,6 +113,7 @@ function resetBoard() {
     let instructions = document.getElementById('instructions');
     instructions.textContent = 'Turn ' + players[0].color;
     instructions.style.color = players[actualPlayer].color;
+    instructions.style.transform = 'scale(1)';
 }
 
 function resetClassname(className) {
